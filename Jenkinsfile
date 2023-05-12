@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 echo "Jenkins let's do that again"
-                sh 'echo using shell within Jenkinsfile'
+                sh 'echo sunny day'
                 echo 'not using shell in the Jenkinsfile'
             }
         }
